@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stash upload helper
 // @namespace    http://tampermonkey.net/
-// @version      1.2.1
+// @version      1.2.2
 // @description  This script helps create an upload for empornium based on a scene from your local stash instance.
 // @author       bdbenim
 // @match        https://emparadise.rs/upload.php*
@@ -30,6 +30,8 @@
 // ==/UserScript==
 
 // Changelog:
+// v1.2.2
+//  - Update empornium domain
 // v1.2.1
 //  - Fix error when uploading torrent file from script
 // v1.2.0
