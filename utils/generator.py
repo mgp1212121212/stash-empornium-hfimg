@@ -67,7 +67,7 @@ def generate(j: dict) -> Generator[str, None, str | None]:
     include_gallery = j["gallery"]
     tracker = j["tracker"]  # 'EMP', 'PB', 'FC', 'HF' or 'ENT'
     include_screens = tracker == 'FC'  # TODO user customization
-    img_host = "imgbox" if config.get("hf_img_host") == 'imgbox' else "hamster"
+    img_host = "imgbox" if config.get("backend", "hf_img_host") == 'imgbox' else "hamster"
 
     yield info("Starting generation")
 
